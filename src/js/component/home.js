@@ -1,7 +1,8 @@
 import React, { Fragment } from "react";
 
-import { Cards } from "./card.jsx";
+import { Cards } from "./cards.jsx";
 import { Navbar } from "./navbar.jsx";
+import { Footer } from "./footer.jsx";
 
 export const Home = () => {
 	return (
