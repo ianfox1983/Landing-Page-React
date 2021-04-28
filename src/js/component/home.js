@@ -6,7 +6,12 @@ import { Card } from "react-bootstrap";
 
 export const Home = () => {
 	return (
-    <Navbar/>
+    <Navbar
+        label="Home" 
+        label= "Videos" 
+        label= "Images" 
+        label= "VideoGames"
+    />
     <Cards />
     );
 };
