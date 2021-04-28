@@ -2,16 +2,16 @@ import React, { Fragment } from "react";
 
 import { Cards } from "./card.jsx";
 import { Navbar } from "./navbar.jsx";
-import { Card } from "react-bootstrap";
 
 export const Home = () => {
 	return (
-    <Navbar
-        label="Home" 
-        label= "Videos" 
-        label= "Images" 
-        label= "VideoGames"
-    />
-    <Cards />
-    );
+		<Fragment>
+			<Navbar
+				label="Home"
+				label="Videos"
+				label="Images"
+				label="VideoGames"
+			/>
+		</Fragment>
+	);
 };

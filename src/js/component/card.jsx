@@ -1,7 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Card, Button } from "react-bootstrap";
-import { nav } from "react-dom";
+
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 
 export const Cards = props => {
 	return (
@@ -36,6 +37,7 @@ let menu = [
 
 
 
+////////////////////////////---------NAVBAR CON BOOSTRAP----------
 
 <Navbar bg="light" expand="lg">
   <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -52,10 +54,6 @@ let menu = [
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
       </NavDropdown>
     </Nav>
-    <Form inline>
-      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <Button variant="outline-success">Search</Button>
-    </Form>
   </Navbar.Collapse>
 </Navbar>
 
