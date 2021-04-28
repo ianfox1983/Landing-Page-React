@@ -11,7 +11,7 @@ import{Nav} from "./Nav";
 export function Home = () => {
     
     return (
-	    <Navbar
+	    <Nav
 		let navbar = "Estoseria la navbar";
 		let titulo = <h1>Hola esta es una prueba </h1>;
 	    />
