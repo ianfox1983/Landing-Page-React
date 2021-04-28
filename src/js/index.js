@@ -11,5 +11,5 @@ import "../styles/index.scss";
 //import your own components
 import { Home } from "./component/home.js";
 
-//render your react application
+//render your react applicationnn
 ReactDOM.render(<Home />, document.querySelector("#app"));
