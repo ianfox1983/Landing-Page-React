@@ -1,13 +1,12 @@
-function Footer() {
-	const [show, setShow] = useState(false);
+import React from "react";
+import { Footer } from "./footer.jsx";
+import Cards from "react-bootstrap/Cards";
 
-	const handleClose = () => setShow(false);
-	const handleShow = () => setShow(true);
-
+export const footer = () => {
 	return (
 		<>
 			<Button variant="primary" onClick={handleShow}>
-				Launch demo modal
+				This is the footer
 			</Button>
 
 			<Modal show={show} onHide={handleClose} animation={false}>
@@ -26,6 +25,4 @@ function Footer() {
 			</Modal>
 		</>
 	);
-}
-
-render(<Footer />);
+};
