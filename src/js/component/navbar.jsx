@@ -1,7 +1,10 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-export function nav(){
-    return (<div>($nav)</div>)
+export const nav = props => {
+    return (
+        <nav/>
+    );
 
     
-}
+};
