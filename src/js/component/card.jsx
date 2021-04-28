@@ -1,10 +1,8 @@
 import React from "react";
-import PropTypes from "prop-types";
-
 import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
+import Cards from "react-bootstrap/Cards";
 
-export const Cards = props => {
+export const cards = props => {
 	return (
 		<Card className="bg-dark text-white">
 			<Card.Img

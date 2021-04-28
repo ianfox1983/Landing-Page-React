@@ -1,7 +1,7 @@
 import React from "react";
-import PropTypes from "prop-types";
+import Navbar from "react-bootstrap/Navbar";
 
-export const Navbar = props => {
+export const navbar = props => {
 	return (
 		<Navbar bg="light" expand="lg">
 			<Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -12,17 +12,17 @@ export const Navbar = props => {
 					<Nav.Link href="#link">Link</Nav.Link>
 					<NavDropdown title="Dropdown" id="basic-nav-dropdown">
 						<NavDropdown.Item href="#action/3.1">
-							Action
+							Home
 						</NavDropdown.Item>
 						<NavDropdown.Item href="#action/3.2">
-							Another action
+							Videos
 						</NavDropdown.Item>
 						<NavDropdown.Item href="#action/3.3">
-							Something
+							Images
 						</NavDropdown.Item>
 						<NavDropdown.Divider />
 						<NavDropdown.Item href="#action/3.4">
-							Separated link
+							VideoGames
 						</NavDropdown.Item>
 					</NavDropdown>
 				</Nav>
