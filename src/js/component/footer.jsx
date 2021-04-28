@@ -1,28 +1,23 @@
 import React from "react";
-import { Footer } from "./footer.jsx";
-import Cards from "react-bootstrap/Cards";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
+import ModalFooter from "react-bootstrap/ModalFooter";
 
-export const footer = () => {
+export const Footer = () => {
 	return (
-		<>
-			<Button variant="primary" onClick={handleShow}>
-				This is the footer
-			</Button>
+		<Modal.Dialog>
+			<Modal.Header closeButton>
+				<Modal.Title>Modal title</Modal.Title>
+			</Modal.Header>
 
-			<Modal show={show} onHide={handleClose} animation={false}>
-				<Modal.Header closeButton>
-					<Modal.Title>Footer</Modal.Title>
-				</Modal.Header>
-				<Modal.Body>This is the footer and u click here</Modal.Body>
-				<Modal.Footer>
-					<Button variant="secondary" onClick={handleClose}>
-						Close
-					</Button>
-					<Button variant="primary" onClick={handleClose}>
-						Save Changes
-					</Button>
-				</Modal.Footer>
-			</Modal>
-		</>
+			<Modal.Body>
+				<p>Modal body text goes here.</p>
+			</Modal.Body>
+
+			<Modal.Footer>
+				<Button variant="secondary">Close</Button>
+				<Button variant="primary">Save changes</Button>
+			</Modal.Footer>
+		</Modal.Dialog>
 	);
 };

@@ -1,8 +1,8 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import Cards from "react-bootstrap/Cards";
+import Card from "react-bootstrap/Card";
 
-export const cards = () => {
+export const Cards = () => {
 	return (
 		<Card className="bg-dark text-white">
 			<Card.Img
